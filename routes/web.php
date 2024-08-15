@@ -20,3 +20,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('example',function () {
    ray('hello world');
 });
+
+Route::statamic('/account/registro', 'user.register-wizard', ['title' => 'Regístrate'])->name('user.register');
+
+Route::get('form-maker',function () {
+    return view('maker-forms.form-button-sic');
+})->name('form-maker.index');

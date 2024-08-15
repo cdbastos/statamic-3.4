@@ -15,9 +15,11 @@
         "fruitcake/laravel-cors": "^2.0.5",
         "guzzlehttp/guzzle": "^7.2",
         "inspector-apm/inspector-laravel": "^4.8",
+        "jonassiewertsen/statamic-livewire": "^2.0",
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
         "laravel/tinker": "^2.7",
+        "livewire/livewire": "^2.0",
         "statamic/cms": "3.4.*"
     },
     "require-dev": {
